@@ -32,3 +32,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true
+
+    - id: test-bibica-net # unique identifier
+    name: test.bibica.net
+    description: 'Trang monitor cho test.bibica.net' # default=empty
+    url: 'https://test.bibica.net/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true
