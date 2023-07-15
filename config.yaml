@@ -1,7 +1,7 @@
 settings:
-  title: 'Status Page bibica.net'
-  url: 'https://status.bibica.net' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
+  title: 'Uptime Monitor'
+  url: 'https://uptime.bibica.net' # used for Slack messages
+  logo: logo1.png # image in ./public/ folder
   daysInHistogram: 1000 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
