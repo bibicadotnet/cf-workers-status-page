@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: bibica-net # unique identifier
-    name: BIBICA.NET
+    name: BIBICA.NET - VM.Standard.A1.Flex
     description: 'Trang monitor cho bibica.net' # default=empty
     url: 'https://bibica.net/' # URL to fetch
     method: GET # default=GET
@@ -25,7 +25,7 @@ monitors:
     linkable: true
 
   - id: static-bibica-net # unique identifier
-    name: STATIC.BIBICA.NET
+    name: STATIC.BIBICA.NET - Cloudflare Pages
     description: 'Trang monitor cho static.bibica.net' # default=empty
     url: 'https://static.bibica.net/' # URL to fetch
     method: GET # default=GET
