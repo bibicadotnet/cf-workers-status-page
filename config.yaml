@@ -1,8 +1,8 @@
 settings:
-  title: 'Uptime Monitor'
+  title: 'Uptime Monitor 2'
   url: 'https://uptime.bibica.net' # used for Slack messages
   logo: logo1.png # image in ./public/ folder
-  daysInHistogram: 1000 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
