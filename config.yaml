@@ -2,7 +2,7 @@ settings:
   title: 'Uptime Monitor'
   url: 'https://uptime.bibica.net' # used for Slack messages
   logo: logo1.png # image in ./public/ folder
-  daysInHistogram: 365 # number of days you want to display in histogram
+  daysInHistogram: 1000 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -28,15 +28,6 @@ monitors:
     name: STATIC.BIBICA.NET
     description: 'Trang monitor cho static.bibica.net' # default=empty
     url: 'https://static.bibica.net/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true
-
-    - id: test-bibica-net # unique identifier
-    name: test.bibica.net
-    description: 'Trang monitor cho test.bibica.net' # default=empty
-    url: 'https://test.bibica.net/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
